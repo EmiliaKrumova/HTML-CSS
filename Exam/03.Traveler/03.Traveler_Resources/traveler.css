@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.site{
+    max-width: 100vw;
+   
+}
+header{
+   
+   width: 100vw;
+   height: 100vh;
+    background-image:url(images/poster.jpg) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: content;
+    filter: brightness(80%);
+     
+    
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Karla" ;
+    font-size: 16px;   
+    padding: 30px;
+    z-index: 1;
+}
+.head nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+}
+.head nav li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #EFFFFF;
+}
+.head .logo img{
+    display: block;
+    width: 110px;
+    height: 65px;   
+
+}
+.content{
+    max-width: 100vw;
+   height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;  
+    color: white;
+    font-family: "Cormorant Infant";
+    gap: 4em;
+    
+   
+}
+.content h1{
+    
+    font-size: 90px;
+    
+
+}
+.content p{
+    width: 35%;    
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    justify-self: flex-end;
+}
+.first{
+   
+    align-items: center;
+    text-align: center;
+    background-color: #F8F0E9;
+    font-family: "Cormorant Infant"
+    
+}
+.first p{
+    font-size: 16px;
+    text-align: start;
+    padding: 30px 25em;
+    font-family: "Karla"
+}
+.first blockquote{
+
+   width: 45vw;
+   display: block;
+   margin: 0 auto;  
+    font-size: 46px;
+    font-style: italic;
+    font-weight: bolder;   
+    padding-top: 20px;
+    padding-bottom: 2em;
+}
+.second{
+    width: 100vw;
+    height: 25vh;
+    background-color: #E14747;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    justify-content: space-around;
+    
+    padding: 30px;
+}
+.second h4,.second p{
+    color: white;
+    font-family: "Karla";
+  
+
+}
+.third{
+    
+    padding: 2em 1em;
+    background-color: #F8F0E9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    justify-content: space-around;
+}
+.picture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 35vw;
+}
+.picture img{
+    width: 100%;
+    height: auto;
+}
+.third h1{
+    max-width: 35vw;
+    font-family: "Cormorant Infant";   
+    color: #352B2A;
+    font-size: 56px;
+    text-align: center;
+}
+.third p{
+    max-width: 35vw;
+    font-family: "Karla";
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 2em;
+}
+.third button{
+    padding: 0.6em 1.2em;
+    border-radius: 4px;
+    background-color: white;
+   
+}
+.third>button{
+    margin-bottom: 4em;
+   
+}
+.four{
+    width: 100vw;
+    height: 40vh;
+    background-color: #E14747;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    justify-content: space-around;
+    
+    padding: 30px;
+}
+.four h2,.four p{
+    color: white;
+    font-family: "Karla";
+  
+
+}
+.four h2{
+    font-family:"Cormorant Infant" ;
+    font-size: 3em;
+}
+.four p{
+    max-width: 65%;
+    text-align: center;
+}
+.four button{
+    background-color: #FAD87A;
+    padding: 0.8em 1.2em;
+    border-radius: 20px;
+    border: #FAD87A;
+}
+footer{
+    display: block;
+    width: 100%;
+    background-color:#362b2aff;
+    display: flex;
+    flex-direction: column;
+   padding-left: 5em;
+    gap: 3em;
+    padding-bottom: 2em;
+}
+.logo-footer img{
+    display: block;
+    width: 110px;
+    height: 65px; 
+}
+
+.logo-footer{
+    padding: 4em 0 3em 0;
+    width: 5em;
+
+}
+
+footer p{
+    width: 30%;
+    color: white;
+    margin-bottom: 1em;
+}
+
+footer .copyrights{
+    color: #6b5542ff;
+}
+

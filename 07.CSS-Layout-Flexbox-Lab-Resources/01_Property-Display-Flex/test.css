@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    font-size: 20px;
+}
+.ema{
+    background-color: pink;
+    flex-grow: 1;
+    /* flex-basis: 0;  */
+}
+.lubo{
+    background-color: rgb(160, 214, 236);
+    flex-grow: 1;
+    /* flex-basis: 0;  */
+    flex-shrink: 2; 
+    
+}
+.rado{
+    background-color: yellowgreen;
+    flex-grow: 0;
+     /* flex-basis: 0;  */
+}

@@ -1,0 +1,37 @@
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+th{
+    background-color: hsl(200, 1%, 53%);
+}
+th,td{
+    width: 144px;
+    height: 32px;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+}
+tr:nth-of-type(even){
+    background-color: rgb(161, 192, 192);
+}
+tr:nth-of-type(odd){
+    background-color: rgb(134, 219, 194);
+}
+
+blockquote{
+    border-left: 5px solid;
+    padding-left: 1.5em;
+    border-left-color: rgb(223, 127, 127);
+    font-style: italic;
+}
+blockquote p.author{
+    text-align: right;
+    font-weight: bold;
+    color: rgb(85, 82, 76);
+}
+

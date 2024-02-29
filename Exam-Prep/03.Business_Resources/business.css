@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+*{ 
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+ font-family: "PT Serif",serif;
+}
+
+.background {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+   margin: 0 auto;
+    padding: 1em 1em;
+    height: auto;
+}
+.logo img{
+    display: block;
+    width: 6%;
+    height: auto;
+}
+.logo ul{
+    list-style: none;
+    
+    display: flex;
+    gap: 1.2em;
+    
+    
+}
+.logo li{
+    text-decoration: none;
+    display: flex;
+    
+}
+.logo a{
+    color: #FFF2E1;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "PT Sans";
+    font-size: 16px;
+}
+.content{
+    position: absolute;
+    font-family: "PT Serif";
+    font-weight: normal;   
+    top: 0;
+    left: 0;
+    width: 50%;
+    color: white;
+    margin: 10%;
+}
+.content h1{
+    font-size: 3em;
+    font-weight: normal;
+}
+.content h1:last-of-type{
+    margin-bottom: 0.8em;
+}
+.content p{
+    width: 80%;
+    font-size: 1em;
+}

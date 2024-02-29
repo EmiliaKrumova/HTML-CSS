@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:  Helvetica, sans-serif;
+}
+header{
+    border-bottom: 2px solid rgb(79, 82, 85);
+    
+    
+    position: relative;
+    
+    
+}
+header h1{
+    display: inline-block;
+}
+nav{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+nav ul{
+    padding: 0;
+    display: inline-block
+
+}
+nav li {
+   
+    display: inline-block;    
+    list-style: none outside;
+    margin: 0 0.2em;
+    
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.5em 0.8em;
+    color: rgb(56, 171, 56);
+    font-weight: 600;
+}

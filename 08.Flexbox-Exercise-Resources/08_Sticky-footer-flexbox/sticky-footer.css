@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header p{
+    width: 100vw;
+    font-size: 34px;
+    text-transform: uppercase;
+    border-bottom: 2px solid black;    
+    padding: 0.5em;
+    
+}
+main{
+    margin-top: 0;  
+
+}
+main h2{
+    padding: 0.2em 0.5em;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+main p{
+    padding: 1em;
+    line-height: 1.2;
+}
+footer{
+    width: 100vw; 
+    height: 2em;      
+    background-color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255); 
+    align-self: flex-end;
+   
+    position: sticky;
+    padding: 0.3em;
+    text-indent: 1em;
+    
+}
